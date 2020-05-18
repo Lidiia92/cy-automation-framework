@@ -1,1 +1,10 @@
-{}
+{
+	"watchForFilesChanges": false,
+	"chromeWebSecurity": false,
+
+	"video": false,
+	"defaultCommandTimeout": 5000,
+	"pageLoadTimeout": 10000,
+	"waitForAnimations": true,
+	"ignoreTestFiles": ["*.js", "*.md"]
+}
