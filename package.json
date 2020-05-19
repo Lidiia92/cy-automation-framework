@@ -6,7 +6,8 @@
 	"scripts": {
 		"cy:open": "cypress open",
 		"cy:run": "cypress run",
-		"cy:update-snapshots": "cypress run --env updateSnapshots:true"
+		"cy:update-snapshots": "cypress run --env updateSnapshots:true",
+		"cy:run-dashboard": "cypress run --record --key 98d059cb-3bd5-4e48-a8d4-fb2e6ee7465a"
 	},
 	"repository": {
 		"type": "git",
