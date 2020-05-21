@@ -26,4 +26,9 @@ describe('Login Success', () => {
 	it('should try to login with invalid credentials', () => {
 		Login.login(login_username, login_password);
 	});
+
+	it('should logout from application', () => {
+		Navbar.logout();
+		Navbar.displaySigninButton();
+	});
 });
